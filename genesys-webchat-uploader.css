@@ -1,0 +1,27 @@
+// This will hide the element inputfile
+.cx-widget input[type="file"] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.cx-widget input[type="file"] + label {
+  cursor: pointer;
+}
+
+//.cx-widget input[type=file]:focus + label,
+//.cx-widget input[type=file] + label:hover {
+//  background-color: red;
+//}
